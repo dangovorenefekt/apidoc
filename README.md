@@ -3,7 +3,7 @@
 
 ------------------------------------------------------------------------------------------
 
-#### GE Episodes Database Calls
+#### GE Episodes Database Calls - No Authenticatiin Required
 
 <details>
  <summary><code>GET</code> <code><b>/v1/episodes/last-ten</b></code> <code>(gets last ten episodes added to Episodes DB)</code></summary>
