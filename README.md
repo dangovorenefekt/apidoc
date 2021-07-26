@@ -5,15 +5,15 @@
 <details><summary><code>Pods DB</code></summary>   
 
 
-> | column      | type    | desciption                            | API Exposed |
-> |-------------|---------|---------------------------------------|-------------|
-> | podcast_id  | INTEGER | Podcast ID in GE Pods DB              | No          |
-> | title       | TEXT    | Podcast Name                          | No          |
-> | description | TEXT    | Podcast Description                   | No          |
-> | website     | TEXT    | Podcast Website Link                  | No          |
-> | rssfeed     | TEXT    | Podcast RSS Feed Link                 | No          |
-> | etag        | TEXT    | RSS Feed Latest etag                  | No          |
-> | modified    | TEXT    | Last-Modified from RSS Feed           | No          |
+> | column      | type    | desciption                               | API Exposed |
+> |-------------|---------|------------------------------------------|-------------|
+> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                 | No          |
+> | title       | TEXT    | Podcast Name                             | No          |
+> | description | TEXT    | Podcast Description                      | No          |
+> | website     | TEXT    | Podcast Website Link                     | No          |
+> | rssfeed     | TEXT    | Podcast RSS Feed Link                    | No          |
+> | etag        | TEXT    | RSS Feed Latest etag                     | No          |
+> | modified    | TEXT    | Last-Modified from RSS Feed              | No          |
 </details>
 
 <details><summary><code>Episodes DB</code></summary>   
