@@ -2,8 +2,9 @@
 
 #### Available DB Columns
 
-<details><summary><code>Pods DB</code></summary>
+<details><summary><code>Pods DB</code></summary>   
 
+<sub>
 > | filed       | type    | desciption                            | API Exposed |
 > |-------------|---------|---------------------------------------|-------------|
 > | podcast_id  | INTEGER | Podcast ID in GE Pods DB              | No          |
@@ -13,10 +14,11 @@
 > | rssfeed     | TEXT    | Podcast RSS Feed Link                 | No          |
 > | etag        | TEXT    | RSS Feed Latest etag                  | No          |
 > | modified    | TEXT    | Last-Modified from RSS Feed           | No          |
-
+</sub>
 </details>
 
-<details><summary><code>Episodes DB</code></summary>
+<details><summary><code>Episodes DB</code></summary>   
+ 
 
 > | filed       | type    | desciption                               | API Exposed |
 > |-------------|---------|------------------------------------------|-------------|
