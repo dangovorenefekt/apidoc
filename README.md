@@ -36,6 +36,7 @@
 > | episodeno   | TEXT    | Episode number (Podcast Internal)        | Yes         |
 > | seasonno    | TEXT    | Episode Season Number (Podcast Internal) | Yes         |
 
+</details>
 
 ------------------------------------------------------------------------------------------
 
