@@ -2,11 +2,11 @@
 
 #### Available DB Columns
 
-<details><summary>Pods DB:</summary>
+<details><summary><code>Pods DB</code></summary>
 
 > | filed       | type    | desciption                            | API Exposed |
 > |-------------|---------|---------------------------------------|-------------|
-> | podcast_id  | INTEGER | PRIMARY KEY, Podcast ID in GE Pods DB | No          |
+> | podcast_id  | INTEGER | Podcast ID in GE Pods DB              | No          |
 > | title       | TEXT    | Podcast Name                          | No          |
 > | description | TEXT    | Podcast Description                   | No          |
 > | website     | TEXT    | Podcast Website Link                  | No          |
@@ -15,6 +15,27 @@
 > | modified    | TEXT    | Last-Modified from RSS Feed           | No          |
 
 </details>
+
+<details><summary><code>Episodes DB</code></summary>
+
+> | filed       | type    | desciption                               | API Exposed |
+> |-------------|---------|------------------------------------------|-------------|
+> | geid        | INTEGER | Episode ID in GE Episode DB              | Yes         |
+> | guid        | TEXT    | Episode GUID                             | Yes         |
+> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                 | Yes         |
+> | link        | TEXT    | Episode Link                             | Yes         |
+> | audio       | TEXT    | Link to Episode Audio                    | Yes         |
+> | image       | TEXT    | Link to Episode Image                    | Yes         |
+> | title       | TEXT    | Episode Title                            | Yes         |
+> | description | TEXT    | Epispde Description                      | Yes         |
+> | pubdate     | TEXT    | Episode Publication Date                 | Yes         |
+> | duration    | TEXT    | Episode Duration                         | Yes         |
+> | explicit    | TEXT    | Aadult Language or Sexual Content        | Yes         |
+> | lenght      | TEXT    | Episode Lenght in bytes                  | Yes         |
+> | author      | TEXT    | Episode Author                           | Yes         |
+> | episodeno   | TEXT    | Episode number (Podcast Internal)        | Yes         |
+> | seasonno    | TEXT    | Episode Season Number (Podcast Internal) | Yes         |
+
 
 ------------------------------------------------------------------------------------------
 
@@ -51,7 +72,7 @@
 
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
-> | `200`         | `application/json`                | JSON string                                                         |
+> | 200           |  application/json                 | JSON string                                                         |
 
 ##### Example cURL
 
