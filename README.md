@@ -1,6 +1,6 @@
 ## Govoren Efekt API
 
-#### Available DB Columns
+#### Available DB 
 
 <details><summary><code>Pods DB</code></summary>   
 
@@ -19,23 +19,24 @@
 <details><summary><code>Episodes DB</code></summary>   
  
 
-> | column      | type    | desciption                               | API Exposed |
-> |-------------|---------|------------------------------------------|-------------|
-> | geid        | INTEGER | Episode ID in GE Episode DB              | Yes         |
-> | guid        | TEXT    | Episode GUID                             | Yes         |
-> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                 | Yes         |
-> | link        | TEXT    | Episode Link                             | Yes         |
-> | audio       | TEXT    | Link to Episode Audio                    | Yes         |
-> | image       | TEXT    | Link to Episode Image                    | Yes         |
-> | title       | TEXT    | Episode Title                            | Yes         |
-> | description | TEXT    | Epispde Description                      | Yes         |
-> | pubdate     | TEXT    | Episode Publication Date                 | Yes         |
-> | duration    | TEXT    | Episode Duration                         | Yes         |
-> | explicit    | TEXT    | Aadult Language or Sexual Content        | Yes         |
-> | lenght      | TEXT    | Episode Lenght in bytes                  | Yes         |
-> | author      | TEXT    | Episode Author                           | Yes         |
-> | episodeno   | TEXT    | Episode number (Podcast Internal)        | Yes         |
-> | seasonno    | TEXT    | Episode Season Number (Podcast Internal) | Yes         |
+> | column      | type    | desciption                                | API Exposed |
+> |-------------|---------|-------------------------------------------|-------------|
+> | geid        | INTEGER | Episode ID in GE Episode DB               | Yes         |
+> | guid        | TEXT    | Episode GUID                              | Yes         |
+> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                  | Yes         |
+> | link        | TEXT    | Episode Link                              | Yes         |
+> | audio       | TEXT    | Link to Episode Audio                     | Yes         |
+> | image       | TEXT    | Link to Episode Image                     | Yes         |
+> | title       | TEXT    | Episode Title                             | Yes         |
+> | description | TEXT    | Epispde Description                       | Yes         |
+> | pubdate     | TEXT    | Episode Publication Date                  | Yes         |
+> | isodate     | TEXT    | Episode Publication Date converted to ISO | No          |
+> | duration    | TEXT    | Episode Duration                          | Yes         |
+> | explicit    | TEXT    | Aadult Language or Sexual Content         | Yes         |
+> | lenght      | TEXT    | Episode Lenght in bytes                   | Yes         |
+> | author      | TEXT    | Episode Author                            | Yes         |
+> | episodeno   | TEXT    | Episode number (Podcast Internal)         | Yes         |
+> | seasonno    | TEXT    | Episode Season Number (Podcast Internal)  | Yes         |
 
 </details>
 
