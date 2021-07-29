@@ -54,13 +54,17 @@
 
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
-> | 200           | application/json                  | JSON string                                                         |
+> | 200           | application/json                  | JSON                                                                |
 
 ##### Example cURL
 
 > ```javascript
 >  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/last-ten' 
 > ```
+
+##### Rate Limit
+
+> None
 
 </details>
 
@@ -75,13 +79,17 @@
 
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
-> | 200           |  application/json                 | JSON string                                                         |
+> | 200           |  application/json                 | JSON                                                                |
 
 ##### Example cURL
 
 > ```javascript
 >  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod'
 > ```
+
+##### Rate limit
+
+> 10 r/m
 
 </details>
 
