@@ -100,7 +100,7 @@
 
 ##### Parameters
 
-> none - returns number of podcasts in the Podcast DB
+> none - returns number of podcasts in the Podcast DB   
 > podcast_id - podcast_id of a podcast in Podcast DB
 
 ##### Responses
