@@ -101,7 +101,7 @@
 ##### Parameters
 
 > none    
-> podcast_id - integer, if send will return podcast data from Podcast DB
+> podcast-id - integer, if send will return podcast data from Podcast DB
 
 ##### Responses
 
@@ -112,7 +112,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts?podcast_id=462'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts?podcast-id=462'
 > ```
 
 ##### Rate limit
