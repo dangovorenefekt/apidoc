@@ -100,8 +100,8 @@
 
 ##### Parameters
 
-> none - returns number of podcasts in the Podcast DB   
-> podcast_id - podcast_id of a podcast in Podcast DB
+> none    
+> podcast_id - integer, if send will return podcast data from Podcast DB
 
 ##### Responses
 
