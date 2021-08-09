@@ -9,11 +9,11 @@
 
 > | column      | type    | desciption                               | API Exposed |
 > |-------------|---------|------------------------------------------|-------------|
-> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                 | No          |
-> | title       | TEXT    | Podcast Name                             | No          |
-> | description | TEXT    | Podcast Description                      | No          |
-> | website     | TEXT    | Podcast Website Link                     | No          |
-> | rssfeed     | TEXT    | Podcast RSS Feed Link                    | No          |
+> | podcast_id  | INTEGER | Podcast ID in GE Pods DB                 | Yes         |
+> | title       | TEXT    | Podcast Name                             | Yes         |
+> | description | TEXT    | Podcast Description                      | Yes         |
+> | website     | TEXT    | Podcast Website Link                     | Yes         |
+> | rssfeed     | TEXT    | Podcast RSS Feed Link                    | Yes         |
 > | etag        | TEXT    | RSS Feed Latest etag                     | No          |
 > | modified    | TEXT    | Last-Modified from RSS Feed              | No          |
 </details>
@@ -87,6 +87,32 @@
 
 > ```javascript
 >  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod'
+> ```
+
+##### Rate limit
+
+> 10 r/m
+
+</details>
+
+<details>
+ <summary><code>GET</code> <code><b>/v1/podcasts</b></code> <code>(gets podcast data from Podcast DB)</code></summary>
+
+##### Parameters
+
+> none - returns number of podcasts in the Podcast DB
+> podcast_id - podcast_id of a podcast in Podcast DB
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           |  application/json                 | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts?podcast_id=462'
 > ```
 
 ##### Rate limit
