@@ -96,12 +96,11 @@
 </details>
 
 <details>
- <summary><code>GET</code> <code><b>/v1/podcasts</b></code> <code>(gets podcast data from Podcast DB)</code></summary>
+ <summary><code>GET</code> <code><b>/v1/podcasts</b></code> <code>(gets podcast data about Podcast DB)</code></summary>
 
 ##### Parameters
 
 > none    
-> podcast-id - integer, if send will return podcast data from Podcast DB
 
 ##### Responses
 
@@ -112,7 +111,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts?podcast-id=462'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts'
 > ```
 
 ##### Rate limit
@@ -121,4 +120,53 @@
 
 </details>
 
+<details>
+ <summary><code>GET</code> <code><b>/v1/podcasts/[int:podcast-id]</b></code> <code>(gets data about requested podcast-id from Podcast DB)</code></summary>
+
+##### Parameters
+
+> none    
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           |  application/json                 | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426'
+> ```
+
+##### Rate limit
+
+> 10 r/m
+
+</details>
+
+<details>
+ <summary><code>GET</code> <code><b>/v1/podcasts/[int:podcast-id]/episodes</b></code> <code>(gets all episodes from Episode DB for requested podcast-id)</code></summary>
+
+##### Parameters
+
+> none    
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           |  application/json                 | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426/episodes'
+> ```
+
+##### Rate limit
+
+> 10 r/m
+
+</details>
 ------------------------------------------------------------------------------------------
