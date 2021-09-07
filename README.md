@@ -171,7 +171,7 @@
 </details>
 
 <details>
- <summary><code>GET</code> <code><b>/v1/podcasts/[int:podcast-id]/episodes</b></code> <code>(gets all episodes from Episode DB for requested podcast-id)</code></summary>
+ <summary><code>GET</code> <code><b>/v1/podcasts/[int:podcast-id]/episodes</b></code> <code>(gets all episodes from Episode DB by podcast-id)</code></summary>
 
 ##### Parameters
 
