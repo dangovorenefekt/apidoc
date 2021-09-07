@@ -61,7 +61,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/last-ten' 
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/last-ten   
 > ```
 
 ##### Rate Limit
@@ -86,7 +86,32 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod
+> ```
+
+##### Rate limit
+
+> 10 r/m
+
+</details>
+
+<details>
+ <summary><code>GET</code> <code><b>/v1/episodes/[int:geid]</b></code> <code>(gets podcast episode by gied from Episodes DB)</code></summary>
+
+##### Parameters
+
+> None
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           |  application/json                 | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/8700
 > ```
 
 ##### Rate limit
@@ -111,7 +136,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts
 > ```
 
 ##### Rate limit
@@ -136,7 +161,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426
 > ```
 
 ##### Rate limit
@@ -161,7 +186,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426/episodes'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/podcasts/426/episodes
 > ```
 
 ##### Rate limit
