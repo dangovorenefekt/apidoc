@@ -96,7 +96,7 @@
 </details>
 
 <details>
- <summary><code>GET</code> <code><b>/v1/episodes/[int:geid]</b></code> <code>(gets podcast episode by gied from Episodes DB)</code></summary>
+ <summary><code>GET</code> <code><b>/v1/episodes/by-geid/[int:geid]</b></code> <code>(gets podcast episode by gied from Episodes DB)</code></summary>
 
 ##### Parameters
 
@@ -111,7 +111,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/8700'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/by-geid/episodes/8700'
 > ```
 
 ##### Rate limit
