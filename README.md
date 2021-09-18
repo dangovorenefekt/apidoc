@@ -100,7 +100,7 @@
 
 ##### Parameters
 
-> None
+> geid - integer, episode GEID in Episodes DB
 
 ##### Responses
 
@@ -111,7 +111,32 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/by-geid/episodes/8700'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/by-geid/8700'
+> ```
+
+##### Rate limit
+
+> 10 r/m
+
+</details>
+
+<details>
+ <summary><code>GET</code> <code><b>/v1/episodes/by-date/[string:pubdate]</b></code> <code>(gets podcast episodes published on the date)</code></summary>
+
+##### Parameters
+
+> geid - string, date in format YYYYMMDD
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           |  application/json                 | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/by-date/20201222'
 > ```
 
 ##### Rate limit
