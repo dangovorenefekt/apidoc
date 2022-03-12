@@ -16,6 +16,8 @@
 > | rssfeed     | TEXT    | Podcast RSS Feed Link                    | Yes         |
 > | etag        | TEXT    | RSS Feed Latest etag                     | No          |
 > | modified    | TEXT    | Last-Modified from RSS Feed              | No          |
+> | category    | TEXT    | Podcast Category                         | Yes         |
+> | lastep      | TEXT    | Lastest episode                          | No          |
 </details>
 
 <details><summary><code>Episodes DB</code></summary>   
