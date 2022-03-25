@@ -48,11 +48,11 @@
 
 #### GE Pods DB and Episodes DB Calls - No Authenticatiin Required
 
-<details> <summary><code>GET</code> <code><b>/v1/episodes/last-ten</b></code> <code>(gets last ten episodes added to Episodes DB)</code></summary>
+<details> <summary><code>GET</code> <code><b>/v1/episodes/recent</b></code> <code>(This call returns the most recent _max_ number of episodes from Episodes DB)</code></summary>
 
 ##### Parameters
 
-> None
+> max - Maximum number of results to return. (optional | default: 10 | min: 1 | max: 25)
 
 ##### Responses
 
@@ -63,7 +63,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/last-ten'   
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/recent?max=12'   
 > ```
 
 ##### Rate Limit
