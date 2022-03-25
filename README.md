@@ -46,7 +46,7 @@
 
 ------------------------------------------------------------------------------------------
 
-#### GE Pods DB and Episodes DB Calls - No Authenticatiin Required
+#### GE Pods DB and Episodes DB Calls - No Authentication Required (for now)
 
 <details> <summary><code>GET</code> <code><b>/v1/episodes/recent</b></code> <code>(This call returns the most recent _max_ number of episodes from Episodes DB)</code></summary>
 
