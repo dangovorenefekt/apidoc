@@ -88,7 +88,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod?max=3'
 > ```
 
 ##### Rate limit
