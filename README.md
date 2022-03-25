@@ -77,7 +77,7 @@
 
 ##### Parameters
 
-> None
+> max - Maximum number of results to return. (optional | default: 1 | min: 1 | max: 10)
 
 ##### Responses
 
