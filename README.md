@@ -48,6 +48,54 @@
 
 #### GE Pods DB and Episodes DB Calls - No Authentication Required (for now)
 
+<details> <summary><code>GET</code> <code><b>/v1/stats</b></code> <code>(This call returns some statistics about Pods and Episodes DB)</code></summary>
+
+##### Parameters
+
+> none
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           | application/json                  | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/stats'   
+> ```
+
+##### Rate Limit
+
+> None
+
+</details>
+
+<details> <summary><code>GET</code> <code><b>/v1/episodes</b></code> <code>(This call returns some statistics about Episodes DB)</code></summary>
+
+##### Parameters
+
+> none
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           | application/json                  | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes'   
+> ```
+
+##### Rate Limit
+
+> None
+
+</details>
+
 <details> <summary><code>GET</code> <code><b>/v1/episodes/recent</b></code> <code>(This call returns the most recent _max_ number of episodes from Episodes DB)</code></summary>
 
 ##### Parameters
@@ -73,7 +121,7 @@
 </details>
 
 <details>
- <summary><code>GET</code> <code><b>/v1/episodes/random-pod</b></code> <code>(gets random podcast episode from Episodes DB)</code></summary>
+ <summary><code>GET</code> <code><b>/v1/episodes/random</b></code> <code>(gets random podcast episode from Episodes DB)</code></summary>
 
 ##### Parameters
 
@@ -88,7 +136,7 @@
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random-pod?max=3'
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/random?max=3'
 > ```
 
 ##### Rate limit
@@ -144,6 +192,30 @@
 ##### Rate limit
 
 > 10 r/m
+
+</details>
+
+<details> <summary><code>GET</code> <code><b>/v1/podcasts</b></code> <code>(This call returns some statistics about Pods DB)</code></summary>
+
+##### Parameters
+
+> none
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | 200           | application/json                  | JSON                                                                |
+
+##### Example cURL
+
+> ```javascript
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes'   
+> ```
+
+##### Rate Limit
+
+> None
 
 </details>
 
