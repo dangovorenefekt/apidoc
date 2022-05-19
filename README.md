@@ -145,6 +145,10 @@
 
 ##### Rate Limit
 
+> None
+
+##### Example reply
+
 > ```javascript
 >{
 >    "items": [
@@ -173,11 +177,6 @@
 >    "count": 1
 >}
 > ```
-
-> None
-
-##### Example reply
-
 </details>
 
 <details>
