@@ -128,23 +128,55 @@
 
 ##### Parameters
 
-> max - Maximum number of results to return. (optional | default: 10 | min: 1 | max: 25)
+> max - Maximum number of results to return. (optional | default: 10 | min: 1 | max: 10)
 
 ##### Responses
 
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | 200           | application/json                  | JSON                                                                |
+> | 429           | application/json                  | JSON                                                                |
 
 ##### Example cURL
 
 > ```javascript
->  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/recent?max=12'   
+>  curl --location --request GET 'https://api.govorenefekt.bg/v1/episodes/recent?max=1'   
 > ```
 
 ##### Rate Limit
 
+> ```javascript
+>{
+>    "items": [
+>        {
+>            "podcast_name": "Dir Podcast",
+>            "category": "News",
+>            "geid": 20289,
+>            "guid": "c0bea2da-32c1-4135-a667-4cf3fd2048dc",
+>            "podcast_id": 476,
+>            "link": "https://anchor.fm/dirbg/episodes/Podcast-e1iodhj",
+>            "audio": "https://anchor.fm/s/4515cc74/podcast/play/52229107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-19%2F266520291-44100-2-0ff2defd56ff8.m4a",
+>            "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11490565/11490565-1652951137867-235309615d455.jpg",
+>            "title": "\"Не\" на металните решетки на входа на Народното събрание, казват Podcast слушателите",
+>            "description": "<p>Коментирайте на PodcastNews@dir.bg</p>\n<p>Това са обедните Podcast новини на 19.05.2022 г.</p>",
+>            "pubdate": "Thu, 19 May 2022 09:05:43 GMT",
+>            "duration": "13:26",
+>            "explicit": null,
+>            "length": "13040102",
+>            "author": "Dir.bg",
+>            "episodeno": "",
+>            "seasonno": "",
+>            "player": "https://podcastalot.com/playb/20289",
+>            "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/20289"
+>        }
+>    ],
+>    "count": 1
+>}
+> ```
+
 > None
+
+##### Example reply
 
 </details>
 
