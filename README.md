@@ -71,6 +71,7 @@
 > None
 
 <details><summary>Example reply</summary>
+> ```javascript
 >  {   
 >    "stats": {   
 >        "feedCountTotal": 439,   
@@ -81,7 +82,8 @@
 >        "NewEpisodes90days": 1371   
 >    },   
 >    "as-of": "2022-03-26 19:52:03.598625"   
-> }   
+> } 
+> ```
 </details>
 
 </details>
