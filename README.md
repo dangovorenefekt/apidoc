@@ -60,7 +60,7 @@
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | 200           | application/json                  | JSON                                                                |
 
-##### Example cURL
+##### #Example cURL
 
 > ```javascript
 >  curl --location --request GET 'https://api.govorenefekt.bg/v1/stats'   
@@ -70,7 +70,8 @@
 
 > None
 
-<details><summary>Example reply</summary>
+##### Example reply
+
 > ```javascript
 >  {   
 >    "stats": {   
@@ -84,7 +85,6 @@
 >    "as-of": "2022-03-26 19:52:03.598625"   
 > } 
 > ```
-</details>
 
 </details>
 
