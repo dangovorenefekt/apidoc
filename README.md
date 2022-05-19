@@ -46,7 +46,7 @@
 
 ------------------------------------------------------------------------------------------
 
-#### GE Pods DB and Episodes DB Calls - No Authentication Required (for now)
+#### GE Pods DB and Episodes DB Calls
 
 <details> <summary><code>GET</code> <code><b>/v1/stats</b></code> <code>(This call returns some statistics about Pods and Episodes DB)</code></summary>
 
@@ -59,8 +59,9 @@
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | 200           | application/json                  | JSON                                                                |
+> | 429           | application/json                  | JSON                                                                |
 
-##### #Example cURL
+##### Example cURL
 
 > ```javascript
 >  curl --location --request GET 'https://api.govorenefekt.bg/v1/stats'   
@@ -99,6 +100,7 @@
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | 200           | application/json                  | JSON                                                                |
+> | 429           | application/json                  | JSON                                                                |
 
 ##### Example cURL
 
@@ -110,6 +112,16 @@
 
 > None
 
+##### Example reply
+
+> ```javascript
+>{
+>    "stats": {
+>        "episodesCountTotal": 16801,
+>        "as-of": "2022-03-26 22:07:36.801073"
+>    }
+>}
+> ```
 </details>
 
 <details> <summary><code>GET</code> <code><b>/v1/episodes/recent</b></code> <code>(This call returns the most recent _max_ number of episodes from Episodes DB)</code></summary>
