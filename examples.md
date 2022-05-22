@@ -210,5 +210,83 @@
 > ```
 </details>
 
+<details><summary>Recent episodes</summary>
 
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes/recent?max=3'
+> ```
+
+##### Response
+
+> ``` javascript
+> {
+>     "count": 3,
+>     "items": [
+>         {
+>             "podcast_name": "2&200 podcast",
+>             "category": "Health & Fitness",
+>             "geid": 20348,
+>             "guid": "54d580b1-7eda-4d55-8772-6cfc07679b2f",
+>             "podcast_id": 105,
+>             "link": "https://anchor.fm/2200-podcast/episodes/2200podcast--------166-e1iq914",
+>             "audio": "https://anchor.fm/s/8b95534/podcast/play/52290020/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-20%2F97b0b65c-f691-c094-716d-9a5bca50d839.mp3",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/1363637/1363637-1653048260331-5070efdeda8cd.jpg",
+>             "title": "2&200podcast: Бохемска София с Виктор Топалов (еп. 166)",
+>             "description": "<p>Подкрепете подкаста: <a href=\"https://www.patreon.com/2n200podcast\">https://www.patreon.com/2n200podcast</a> &nbsp;&nbsp;</p>\n<p>Виктор Топалов е създател на платформата Бохемска София. Чрез нея, той ни запознава с културните традиции, общество и архитектура на град София преди Втората Световна война.&nbsp;</p>\n<p>Страница: <a href=\"https://anchor.fm/s/8b95534/podcast/rss\">https://bg-bg.facebook.com/bohemskasofia</a></p>\n<p>Подкаст : <a href=\"https://anchor.fm/s/8b95534/podcast/rss\" target=\"_blank\">https://anchor.fm/bohemskasofia/episodes/ep-e1hodr5</a></p>\n<p>SMSBump е платформа за SMS маркетинг в онлайн търговията с повече от 96,000 клиенти в цял свят. Част е от американската SaaS компания Yotpo, с офиси в 5 държави - САЩ, България, Израел, Великобритания и Австралия. Компанията има амбициозната цел да създаде най-голямата единна маркетингова платформа за онлайн магазини. Ако искате да бъдете един от 50+ човека, променящи бъдещето на електронната търговия, разгледайте актуалните <strong>позиции в SMSBump тук: </strong><a href=\"https://bit.ly/3uMla7f\"><u><strong>https://bit.ly/3uMla7f</strong></u></a></p>\n<p><br /></p>\n<p>Storytel е абонаментна стрийминг услуга за аудио и електронни книги с &nbsp;присъствие на 25 пазара по света. Storytel e в България от началото на &nbsp;2019г., а потребителите у нас вече имат достъп до каталог от над 3000 &nbsp;заглавия на български език и повече от 350 000 - на английски. Всеки нов &nbsp;потребител на услугата може да тества приложението напълно безплатно в &nbsp;рамките на 14 дни, като в този период има неограничен достъп до цялото &nbsp;съдържание в платформата</p>\n<p>🎧📚 Вземи удължен 30-дневен пробен период в Storytel от тук: <a href=\"https://www.storytel.bg/2&amp;200podcast\">www.storytel.bg/2&amp;200podcast</a></p>\n<p>Последвайте ни:</p>\n<p><a href=\"https://www.facebook.com/2n200podcast/\">https://www.facebook.com/2n200podcast/</a></p>\n<p><a href=\"https://www.instagram.com/2n200podcast/\">https://www.instagram.com/2n200podcast/</a></p>\n<p><a href=\"https://www.instagram.com/a.t.i.l.a_official/\">https://www.instagram.com/a.t.i.l.a_official/</a></p>\n<p><a href=\"https://www.instagram.com/tsvetomir.tsanov/\">https://www.instagram.com/tsvetomir.tsanov</a></p>",
+>             "pubdate": "Sun, 22 May 2022 07:30:22 GMT",
+>             "duration": "2:07:03",
+>             "explicit": null,
+>             "length": "182982458",
+>             "author": "2&200 podcast",
+>             "episodeno": "166",
+>             "seasonno": "1",
+>             "player": "https://podcastalot.com/playb/20348",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/20348"
+>         },
+>         {
+>             "podcast_name": "Животът е Прекрасен с Милена Голева",
+>             "category": "Education,Self-Improvement",
+>             "geid": 20347,
+>             "guid": "134f33fb-2f6c-429c-a64f-a0fcc108e4bb",
+>             "podcast_id": 44,
+>             "link": "https://anchor.fm/milenagoleva/episodes/--e1irhvv",
+>             "audio": "https://anchor.fm/s/435825bc/podcast/play/52331967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-21%2F266948863-44100-2-0a2ce3af5b115.m4a",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/11198503/11198503-1634300755727-9f452d4973205.jpg",
+>             "title": "❤️ Скъпоценна техника-изречение как да се справиш с онези \"доброжелателни\" хора...",
+>             "description": "<p>❤️ В тази наша медена среща ще ти помогна със скъпоценна техника-изречение как да се справиш с онези \"доброжелателни\" хора, които по-добре от теб \"знаят\" кое е добро за теб. Често в живота ставаме част от такива взаимоотношения: - Аз ще ти кажа какво искаш ти.. Тази техника ще ти помогне да оставаш спокоен и в същото време да пазиш своите лични граници.&nbsp;</p>\n<p>💎 Тази техника ще ти е полезна и в живота и в социалните мрежи!</p>\n<p>❤️ Срещата ни ще е много Полезна, Приятна и Практична както винаги! Трите П!</p>\n<p>❤️ Обичам ни безкрайно!</p>\n<p>🤍 Милена Голева</p>\n<p>🙏 БлагоДаря за подкрепата, положителното отношение и заедността!</p>\n<p>А това са линкове, които ще ти бъдат полезни:</p>\n<p>💎 Колекция авторски водени медитации от Милена Голева: https://milenagoleva.com/kolekciya-meditacii/</p>\n<p>❤️ Онлайн семинар с Милена Голева: https://milenagoleva.com/onlayn-seminar/</p>\n<p>❤️ Онлайн йога студио с Милена Голева: https://milenagoleva.com/online-yoga-s-milena-goleva/</p>\n<p>❤️ Авторски онлайн програми: https://milenagoleva.com/onlayn-video-kursove/</p>\n<p>❤️ Групата ни в Instagram: https://www.instagram.com/milenagoleva_official/</p>\n<p>❤️ Групата ни в You Tube: https://www.youtube.com/c/МиленаГолева</p>\n<p>❤️ Групата ни във Facebook: https://www.facebook.com/milenagolevaofficial</p>\n<p>❤️ Spotify: https://open.spotify.com/show/5s6NQbTpqesmw4op28Jl0d?si=wyTuwInYToCENNSY_0OCYA</p>\n<p>❤️ Apple Podcast: https://podcasts.apple.com/bg/podcast/%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D1%8A%D1%82-%D0%B5-%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%B5%D0%BD-%D1%81-%D0%BC%D0%B8%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B3%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0/id1543778811</p>\n<p>❤️ Google Podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80MzU4MjViYy9wb2RjYXN0L3Jzcw?sa=X&amp;ved=2ahUKEwjuy5vqnczzAhVkVeUKHdL6B14Q9sEGegQIARAC</p>",
+>             "pubdate": "Sun, 22 May 2022 06:48:19 GMT",
+>             "duration": "19:02",
+>             "explicit": null,
+>             "length": "18477286",
+>             "author": "Milena Goleva",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "player": "https://podcastalot.com/playb/20347",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/20347"
+>         },
+>         {
+>             "podcast_name": "Simple Bulgarian",
+>             "category": "Education,Language Learning",
+>             "geid": 20346,
+>             "guid": "82f76135-2f6c-4344-8b8c-5e4b7d009a96",
+>             "podcast_id": 255,
+>             "link": "https://anchor.fm/simplebulgarian/episodes/191-Simple-Bulgarian---e1hskes",
+>             "audio": "https://anchor.fm/s/36c85bf0/podcast/play/51318684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-30%2F4773d16e-5d0e-cdb9-566c-0e2a297d627e.mp3",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/9091004/9091004-1601436989601-63a85103534ea.jpg",
+>             "title": "191 Simple Bulgarian - От игла до конец",
+>             "description": "<p><strong>- Епизод #191: От игла до конец</strong></p>\n<p><strong>- Разговорни изрази:</strong></p>\n<ul>\n <li><strong>От игла до конец - От начало до край</strong></li>\n <li><strong>Игла в копа сено - Да търсиш нещо съвсем дребно, трудно откриваемо</strong></li>\n  <li><strong>Игла да хвърлиш, няма къде да падне - За място, препълнено с хора</strong></li>\n  <li><strong>На върха на иглата - Много дребно нещо</strong></li>\n  <li><strong>На конец остана - Без малко</strong></li>\n  <li><strong>Изпипано по конец - Много добре свършена работа</strong></li>\n  <li><strong>Като под конец - Направено прецизно и внимателно</strong></li>\n  <li><strong>Съшит с бял конец - Плитка лъжа или неправдоподобна история</strong></li>\n</ul>\n<p><strong>&lt;a href=\"https://www.patreon.com/simplebulgarian\" rel=\"ugc noopener noreferrer\" target=\"_blank\"&gt; - Всички епизоди + бонус епизоди + текстове към епизодите: тук &lt;/a&gt;</strong></p>",
+>             "pubdate": "Sun, 22 May 2022 05:00:23 GMT",
+>             "duration": "05:25",
+>             "explicit": null,
+>             "length": "5531495",
+>             "author": "Simple Bulgarian",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "player": "https://podcastalot.com/playb/20346",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/20346"
+>         }
+>     ]
+> }
+> ```
 </details>
