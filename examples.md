@@ -93,6 +93,7 @@
 >      ]
 >  }
 > ```
+
 </details>
 
 <details><summary><Episodes by geid</summary>
@@ -103,6 +104,7 @@
 > ```
 
 ##### Response
+> ``` javascript
 > {
 >    "items": [
 >        {
@@ -127,4 +129,5 @@
 >        }
 >    ]
 > }
+> ```
 </details>
