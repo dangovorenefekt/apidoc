@@ -1,5 +1,5 @@
 <details><summary>Episodes endpoints</summary>
-
+   
 <details><summary>Episodes by date</summary>
 
 ##### Request
