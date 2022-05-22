@@ -1,8 +1,8 @@
 <details><summary>Episodes by date</summary>
 
-##### Example
+##### Request
 > ```javascript
-> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes/by-date/20220325' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes/by-date/20220101' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
 > ```
 
 ##### Response
@@ -96,7 +96,35 @@
 
 </details>
 
-<details><summary></summary>
+<details><summary><Episodes by geid/summary>
 
-##### Example
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes/by-geid/512' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> ```
 
+##### Response
+>{
+>    "items": [
+>        {
+>            "podcast_name": "Сутрешно предаване за мениджъри с Пламен Петров",
+>            "category": "Education,Business,Management,Business",
+>            "geid": 512,
+>            "guid": "http://rss.castbox.fm/everest/album-687807c0a0424b2a8592389a43bd74b9-cc0ac0d4a68b49bea640070ccb15fe86",
+>            "podcast_id": 12,
+>            "link": "http://rss.castbox.fm/everest/album-687807c0a0424b2a8592389a43bd74b9-cc0ac0d4a68b49bea640070ccb15fe86",
+>            "audio": "https://s3.castbox.fm/c5/4a/73/4d193242539f53eb8c868713c6.mp3",
+>            "image": "https://s3.castbox.fm/7f/f5/9c/634d254b0dac4d41712a10ba5d.jpg",
+>            "title": "6 от 75 глава на Аудио #книгастудендушзамениджъри",
+>            "description": "6 от 75 глава на Аудио #книгастудендушзамениджъри \n\n---\nКнига \"Студен душ за мениджъри\" - http://www.equinox-partners.bg/cold-shower-for-managers-book.html\n\nХаштаг на книгата в LinkedIn и другите социални мрежи: #книгастудендушзамениджъри\n\nЕднодневно обучение за мениджъри \"Мотивация и ефективна комуникация\" - http://www.equinox-partners.bg/effective-communication-and-motivation-for-managers.html\n\n3-месечни лидерски програми (само затворени по поръчка на една компания) - http://www.equinox-partners.bg/management-development-program.html",
+>            "pubdate": "Sat, 27 Jul 2019 18:23:03 +0000",
+>            "duration": "00:01:44",
+>            "explicit": null,
+>            "length": "1251056",
+>            "author": "",
+>            "episodeno": "",
+>            "seasonno": "",
+>            "player": "https://podcastalot.com/playb/512"
+>        }
+>    ]
+>}
