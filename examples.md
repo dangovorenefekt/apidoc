@@ -1,4 +1,5 @@
 <details><summary>Episodes by date</summary>
+
 ##### Route
 /v1/episodes/by-date/:date
 
