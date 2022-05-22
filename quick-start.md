@@ -1,6 +1,6 @@
 <details><summary>Episodes endpoints</summary><blockquote>
    
-<details><summary>Episodes by date</summary><blockquote>
+<details><summary>Episodes by date (API key authentication requried)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -97,7 +97,7 @@
 > ```
 </details>
 
-<details><summary>Episodes by geid</summary><blockquote>
+<details><summary>Episodes by geid (API key authentication requried)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -133,7 +133,7 @@
 > ```
 </details>
 
-<details><summary>Random episode</summary><blockquote>
+<details><summary>Random episode (No authentication required)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -210,7 +210,7 @@
 > ```
 </details>
 
-<details><summary>Recent episodes</summary><blockquote>
+<details><summary>Recent episodes (No authenticaiton required)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -294,7 +294,7 @@
 
 <details><summary>Podcast endpoints</summary><blockquote>
 
-<details><summary>Podcast by podcast_id</summary><blockquote>
+<details><summary>Podcast by podcast_id (API key authentication requried)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -323,7 +323,7 @@
 > ```
 </details>
 
-<details><summary>Podcast episodes</summary><blockquote>
+<details><summary>Podcast episodes (API key authentication requried)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -400,7 +400,7 @@
 
 <details><summary>Statistics endpoints</summary><blockquote>
 
-<details><summary>All stats</summary><blockquote>
+<details><summary>All stats (No authentication requried)</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -423,7 +423,7 @@
 > ```
 </details>
 
-<details><summary>Count of episodes</summary><blockquote>
+<details><summary>Count of episodes (No authentication requried)</summary><blockquote>
 
 ##### Request
 > ``` javascript
@@ -441,7 +441,7 @@
 > ```
 </details>
 
-<details><summary>Count of podcasts</summary><blcokquote>
+<details><summary>Count of podcasts (No authentication requried)</summary><blcokquote>
 
 ##### Request
 > ``` javascript
