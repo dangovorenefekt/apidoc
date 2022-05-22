@@ -1,3 +1,5 @@
+<details><summary>Episodes endpoints</summary>
+
 <details><summary>Episodes by date</summary>
 
 ##### Request
@@ -129,4 +131,84 @@
 >    ]
 > }
 > ```
+</details>
+
+<details><summary>Random episode</summary>
+
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes/random?max=3'
+> ```
+
+###### Response
+> ``` javascript
+> {
+>     "count": 3,
+>     "items": [
+>         {
+>             "podcast_name": "Уроци за успех - Капитал подкаст",
+>             "category": "News & Politics",
+>             "geid": 13004,
+>             "guid": "https://www.capital.bg/podcast/uroci_za_uspeh/2021/12/10/4289285_goliamata_promiana_ne_e_edno_subitie/",
+>             "podcast_id": 477,
+>             "link": "https://www.capital.bg/podcast/uroci_za_uspeh/2021/12/10/4289285_goliamata_promiana_ne_e_edno_subitie/",
+>             "audio": "https://feeds.soundcloud.com/stream/1170545785-capital-podcasts-golyamata-promyana-ne-e-edno-sbitie.mp3",
+>             "image": "http://www.capital.bg/standalone/podcast/images/uu.jpg",
+>             "title": "\"Голямата промяна не е едно събитие\"",
+>             "description": "Старши вицепрезидентът в SAP Румяна Тренчева в подкаста &quot;Уроци за успех&quot;",
+>             "pubdate": "Fri, 10 Dec 2021 00:00:00 +0200",
+>             "duration": "00:25:42",
+>             "explicit": "0",
+>             "length": "",
+>             "author": "338",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "player": "https://podcastalot.com/playb/13004"
+>         },
+>         {
+>             "podcast_name": "Magi San & Dimikask PODCAST",
+>             "category": "Comedy",
+>             "geid": 1445,
+>             "guid": "2f7776c4-9f50-2d1b-149b-9cc3f31531ef",
+>             "podcast_id": 69,
+>             "link": "https://anchor.fm/magdalena-aleksandrova/episodes/ep-e1do40",
+>             "audio": "https://anchor.fm/s/3441b5c/podcast/play/499264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-02-12%2F1b7a611048614d8560fcea0f5e3f96a2.m4a",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_auto/447951/447951-1525372215295-26-FFFFFF.jpg",
+>             "title": "Започваме ПОДКАСТ!",
+>             "description": "Ние сме Маги и Дими - партньори в живота и в този нов подкаст! Може би ни познавате от YouTube и каналите Magi San & Dimikask. Тук обаче видеото ще остане на заден план, защото ще си говорим. За какво ли? Темите ще се въртят главно около взаимоотношенията в една двойка, домашната хармония, компромисите, отглеждането на КОТЕ и планирането на светло бъдеще. Както се казва - stay tuned! Това е само едно простичко 10-минутно хаотично подкастче като за старт. Предстоят доста по-дълги, тематични подкастове :)",
+>             "pubdate": "Thu, 03 May 2018 18:29:37 GMT",
+>             "duration": "10:52",
+>             "explicit": null,
+>             "length": "10550581",
+>             "author": "Magi San",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "player": "https://podcastalot.com/playb/1445"
+>         },
+>         {
+>             "podcast_name": "Жълто- Освежи Бизнеса Си",
+>             "category": "Business,Marketing",
+>             "geid": 15759,
+>             "guid": "05c4fa5f-f769-4f6a-8bca-3354f36c1d6b",
+>             "podcast_id": 324,
+>             "link": "https://anchor.fm/zyltomarketing/episodes/ep-egjo0u",
+>             "audio": "https://anchor.fm/s/2b563fbc/podcast/play/16424414/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-6-11%2F89340009-44100-2-4ecbb4650c6fa.mp3",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/7170727/7170727-1594482415712-566d474d07062.jpg",
+>             "title": "Добре дошли!",
+>             "description": "Какво ще намериш тук- накратко разказвам за този канал. Заповядай във Фейсбук Жълто-освежи бизнеса си и в Инстаграм @zyltomarketig",
+>             "pubdate": "Sat, 11 Jul 2020 15:40:56 GMT",
+>             "duration": "03:30",
+>             "explicit": null,
+>             "length": "3398230",
+>             "author": "Жълто с Леда",
+>             "episodeno": "1",
+>             "seasonno": "",
+>             "player": "https://podcastalot.com/playb/15759"
+>         }
+>     ]
+> }
+> ```
+</details>
+
+
 </details>
