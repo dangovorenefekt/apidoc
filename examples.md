@@ -290,3 +290,110 @@
 > }
 > ```
 </details>
+</details>
+
+<details><summary>Podcast endpoints</summary>
+
+<details><summary>Podcast by podcast_id</summary>
+
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts/376' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> ```
+
+##### Response
+> ``` javascript
+> {
+>     "items": [
+>         {
+>             "podcast_id": 376,
+>             "title": "Радиоточка 2 с Васи Гошева",
+>             "category": "Society & Culture",
+>             "description": "Подкастът на Точка 2 за:\n\n● интересно и полезно съдържание от soft skills света за IT хора\n● всичко, което \"готвим\" в кухнята на Точка 2\n● забавните неща от живота, поднесени с щипка хумор",
+>             "website": "https://soundcloud.com/radiotochka2",
+>             "rssfeed": "https://feeds.soundcloud.com/users/soundcloud:users:841029304/sounds.rss",
+>             "uri": "https://api.govorenefekt.bg/v1/podcasts/376/episodes",
+>             "cover": "https://podcastalot.com/covers/376.jpg",
+>             "first_release": "2020-06-19",
+>             "last_release": "2022-05-18",
+>             "episodes_count": 78
+>         }
+>     ]
+> }
+> ```
+</details>
+
+<details><summary>Podcast episodes</summary>
+
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts/5/episodes' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> ```
+
+##### Response
+> ``` javascript
+> {
+>     "count": 3,
+>     "items": [
+>         {
+>             "geid": 16,
+>             "guid": "52fdff60-2669-47b2-b9d8-7a332f65e21c",
+>             "podcast_id": 5,
+>             "link": "https://anchor.fm/business-club-media/episodes/GDPR-ea6n32",
+>             "audio": "https://anchor.fm/s/116cdf98/podcast/play/9706018/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-10%2F6797664f786b2e28069947b4cd3d579c.m4a",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2823478/2823478-1576501360736-5ec7a052d973e.jpg",
+>             "title": "GDPR и регулациите за защита на личните данни в малкия и среден бизнес",
+>             "description": "При нарушаване на регламента, надзорният орган може да наложи имуществена санкция, която би могла да достигне размер до 20 мил. евро или до 4% от общия годишен оборот на дружеството за предходната финансова година - която от двете суми е по-висока.",
+>             "pubdate": "Wed, 15 Jan 2020 15:29:42 GMT",
+>             "duration": "04:17",
+>             "explicit": null,
+>             "length": "4231371",
+>             "author": "Business Club",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/16",
+>             "player": "https://podcastalot.com/playb/16"
+>         },
+>         {
+>             "geid": 17,
+>             "guid": "86c0e021-3814-84d0-a293-5716c733eed5",
+>             "podcast_id": 5,
+>             "link": "https://anchor.fm/business-club-media/episodes/ep-e9i52h",
+>             "audio": "https://anchor.fm/s/116cdf98/podcast/play/9032209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-04%2F8995bfeac3514140583cadadbf47e485.m4a",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2823478/2823478-1576501360736-5ec7a052d973e.jpg",
+>             "title": "Зимният сезон в туристическия бизнес",
+>             "description": "Готова ли е България за новия зимен сезон и къде се очаква спад в туристическия поток?",
+>             "pubdate": "Wed, 18 Dec 2019 13:11:51 GMT",
+>             "duration": "04:45",
+>             "explicit": null,
+>             "length": "4625397",
+>             "author": "Business Club",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/17",
+>             "player": "https://podcastalot.com/playb/17"
+>         },
+>         {
+>             "geid": 18,
+>             "guid": "1e73d282-5900-ac41-602f-005e3229bb13",
+>             "podcast_id": 5,
+>             "link": "https://anchor.fm/business-club-media/episodes/The-ClubCast-e9h6dd",
+>             "audio": "https://anchor.fm/s/116cdf98/podcast/play/9000813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-04%2F1836a63d1e7b42c9f79d17764ab7a665.m4a",
+>             "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2823478/2823478-1576501360736-5ec7a052d973e.jpg",
+>             "title": "Добре дошли в The ClubCast!",
+>             "description": "Чуйте началото на нашия официален подкаст. Защото качествената информация е в основата на успешния бизнес.",
+>             "pubdate": "Mon, 16 Dec 2019 12:35:25 GMT",
+>             "duration": "02:37",
+>             "explicit": null,
+>             "length": "2549829",
+>             "author": "Business Club",
+>             "episodeno": "",
+>             "seasonno": "",
+>             "uri": "https://api.govorenefekt.bg/v1/episodes/by-geid/18",
+>             "player": "https://podcastalot.com/playb/18"
+>         }
+>     ]
+> }
+> ```
+</details>
+</details>
