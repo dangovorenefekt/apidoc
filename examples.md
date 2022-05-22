@@ -95,7 +95,7 @@
 > ```
 </details>
 
-<details><summary><Episodes by geid/summary>
+<details><summary><Episodes by geid</summary>
 
 ##### Request
 > ```javascript
