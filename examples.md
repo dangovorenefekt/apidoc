@@ -1,6 +1,6 @@
-<details><summary>Episodes endpoints</summary>
+<details><summary>Episodes endpoints</summary><blockquote>
    
-<details><summary>Episodes by date</summary>
+<details><summary>Episodes by date</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -97,7 +97,7 @@
 > ```
 </details>
 
-<details><summary>Episodes by geid</summary>
+<details><summary>Episodes by geid</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -133,7 +133,7 @@
 > ```
 </details>
 
-<details><summary>Random episode</summary>
+<details><summary>Random episode</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -210,7 +210,7 @@
 > ```
 </details>
 
-<details><summary>Recent episodes</summary>
+<details><summary>Recent episodes</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -292,9 +292,9 @@
 </details>
 </details>
 
-<details><summary>Podcast endpoints</summary>
+<details><summary>Podcast endpoints</summary><blockquote>
 
-<details><summary>Podcast by podcast_id</summary>
+<details><summary>Podcast by podcast_id</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -323,7 +323,7 @@
 > ```
 </details>
 
-<details><summary>Podcast episodes</summary>
+<details><summary>Podcast episodes</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -398,9 +398,9 @@
 </details>
 </details>
 
-<details><summary>Statistics endpoints</summary>
+<details><summary>Statistics endpoints</summary><blockquote>
 
-<details><summary>All stats</summary>
+<details><summary>All stats</summary><blockquote>
 
 ##### Request
 > ```javascript
@@ -423,7 +423,7 @@
 > ```
 </details>
 
-<details><summary>Count of episodes</summary>
+<details><summary>Count of episodes</summary><blockquote>
 
 ##### Request
 > ``` javascript
@@ -441,7 +441,7 @@
 > ```
 </details>
 
-<details><summary>Count of podcasts</summary>
+<details><summary>Count of podcasts</summary><blcokquote>
 
 ##### Request
 > ``` javascript
