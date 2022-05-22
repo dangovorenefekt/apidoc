@@ -400,13 +400,63 @@
 
 <details><summary>Statistics endpoints</summary>
 
+<details><summary>All stats</summary>
 
+##### Request
+> ```javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/stats'
+> ```
 
+##### Response
+> ``` javascript
+> {
+>     "as-of": "2022-05-22 15:47:11.247759+03:00",
+>     "stats": {
+>         "feedCountTotal": 496,
+>         "episodeCountTotal": 20017,
+>         "NewEpisodes3days": 41,
+>         "NewEpisodes10days": 176,
+>         "NewEpisodes30days": 497,
+>         "NewEpisodes90days": 1773
+>     }
+> }
+> ```
+</details>
 
+<details><summary>Count of episodes</summary>
 
+##### Request
+> ``` javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/episodes'
+> ```
 
+##### Response
+> ``` javascript
+> {
+>     "as-of": "2022-05-22 15:49:43.701675+03:00",
+>     "stats": {
+>         "episodesCountTotal": 20017
+>     }
+> }
+> ```
+</details>
 
+<details><summary>Count of podcasts</summary>
 
+##### Request
+> ``` javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts
+> ```
 
+##### Response
+``` javascript
+> {
+>     "as-of": "2022-05-22 15:53:19.596141+03:00",
+>     "stats": {
+>         "feedCountTotal": 496
+>     }
+> }
+> ```
+</details>
 
 </details>
