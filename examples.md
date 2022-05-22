@@ -397,3 +397,16 @@
 > ```
 </details>
 </details>
+
+<details><summary>Statistics endpoints</summary>
+
+
+
+
+
+
+
+
+
+
+</details>
