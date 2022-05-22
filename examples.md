@@ -93,7 +93,6 @@
 >      ]
 >  }
 > ```
-
 </details>
 
 <details><summary><Episodes by geid/summary>
@@ -104,7 +103,7 @@
 > ```
 
 ##### Response
->{
+> {
 >    "items": [
 >        {
 >            "podcast_name": "Сутрешно предаване за мениджъри с Пламен Петров",
@@ -127,5 +126,5 @@
 >            "player": "https://podcastalot.com/playb/512"
 >        }
 >    ]
->}
+> }
 </details>
