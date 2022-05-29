@@ -459,11 +459,11 @@
 > ```
 </details>
 
-<details><summary>Category stats (No authentication requried)</summary><blcokquote>
+<details><summary>Category stats (API key authentication requried)</summary><blcokquote>
 
 ##### Request
 > ``` javascript
-> http --follow --timeout 3600 GET 'https://api.govorenefekt.bg/v1/category'
+> http --follow --timeout 3600 GET 'https://api.govorenefekt.bg/v1/category' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
 > ```
 
 ##### Response
