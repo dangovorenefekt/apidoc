@@ -445,7 +445,7 @@
 
 ##### Request
 > ``` javascript
-> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts'
 > ```
 
 ##### Response
@@ -455,6 +455,43 @@
 >     "stats": {
 >         "feedCountTotal": 496
 >     }
+> }
+> ```
+</details>
+
+<details><summary>Category stats (No authentication requried)</summary><blcokquote>
+
+##### Request
+> ``` javascript
+> http --follow --timeout 3600 GET 'https://api.govorenefekt.bg/v1/category'
+> ```
+
+##### Response
+> ``` javascript
+{
+>     "as-of": "2022-05-29 14:52:12.759353+03:00",
+>     "stats": [
+>         {
+>             "category": "Alternative Health",
+>             "count": 1
+>         },
+>         {
+>             "category": "Arts",
+>             "count": 53
+>         },
+>         {
+>             "category": "Aviation",
+>             "count": 1
+>         },
+>         {
+>             "category": "Books",
+>             "count": 16
+>         },
+>         {
+>             "category": "Business",
+>             "count": 82
+>         }
+>     ]
 > }
 > ```
 </details>
