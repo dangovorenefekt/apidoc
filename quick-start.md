@@ -496,4 +496,41 @@
 > ```
 </details>
 
+<details><summary>Hosts stats (API key authentication requried)</summary><blcokquote>
+
+##### Request
+> ``` javascript
+> https --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/hosts' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> ```
+
+##### Response
+> ``` javascript
+> {
+>    "as-of": "2022-06-05 18:58:09.795651+03:00",
+>    "count": 56,
+>    "items": [
+>        {
+>            "host": "acast.com",
+>            "count": 1
+>        },
+>        {
+>            "host": "anchor.fm",
+>            "count": 333
+>        },
+>        {
+>            "host": "archi.coffee",
+>            "count": 1
+>        },
+>        {
+>            "host": "autobild.bg",
+>            "count": 1
+>        },
+>        {
+>            "host": "bcast.fm",
+>            "count": 1
+>        }
+>     ]
+> }
+> ```
+</details>
 </details>
