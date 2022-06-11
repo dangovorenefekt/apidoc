@@ -304,21 +304,23 @@
 ##### Response
 > ``` javascript
 > {
->     "items": [
->         {
->             "podcast_id": 376,
->             "title": "Радиоточка 2 с Васи Гошева",
->             "category": "Society & Culture",
->             "description": "Подкастът на Точка 2 за:\n\n● интересно и полезно съдържание от soft skills света за IT хора\n● всичко, което \"готвим\" в кухнята на Точка 2\n● забавните неща от живота, поднесени с щипка хумор",
->             "website": "https://soundcloud.com/radiotochka2",
->             "rssfeed": "https://feeds.soundcloud.com/users/soundcloud:users:841029304/sounds.rss",
->             "uri": "https://api.govorenefekt.bg/v1/podcasts/376/episodes",
->             "cover": "https://podcastalot.com/covers/376.jpg",
->             "first_release": "2020-06-19",
->             "last_release": "2022-05-18",
->             "episodes_count": 78
->         }
->     ]
+>    "items": [
+>        {
+>            "podcast_id": 41,
+>            "title": "Hachiko си лафи (Епизод 1",
+>            "category": "Education,Language Learning",
+>            "description": "Здр",
+>            "website": "https://anchor.fm/hachiko55",
+>            "rssfeed": "https://anchor.fm/s/43b6ab64/podcast/rss",
+>            "uri": "https://api.govorenefekt.bg/v1/podcasts/41/episodes",
+>            "cover": "https://podcastalot.com/covers/41.jpg",
+>            "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80M2I2YWI2NC9wb2RjYXN0L3Jzcw",
+>            "itunes": "https://podcasts.apple.com/us/podcast/id1544227244",
+>            "first_release": "2020-12-10",
+>            "last_release": "2021-01-26",
+>            "episodes_count": 3
+>        }
+>    ]
 > }
 > ```
 </details>
