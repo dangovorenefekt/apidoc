@@ -318,7 +318,8 @@
 >            "itunes": "https://podcasts.apple.com/us/podcast/id1544227244",
 >            "first_release": "2020-12-10",
 >            "last_release": "2021-01-26",
->            "episodes_count": 3
+>            "episodes_count": 3,
+>            "magiclink": "https://bgpod.link/1398"
 >        }
 >    ]
 > }
