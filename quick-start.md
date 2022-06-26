@@ -536,4 +536,32 @@
 > }
 > ```
 </details>
+
+<details><summary>Podcasts by episode count (API key authentication requried)</summary><blcokquote>
+
+##### Request
+> ``` javascript
+> http --follow --timeout 3600 GET 'api.govorenefekt.bg/v1/podcasts-by-episode-count' x-api-key:'dc4f3ce4-f0fa-45f7-bc83-bc16477bc6e6'
+> ```
+
+##### Response
+> ``` javascript
+> {
+>    "as-of": "2022-06-26 10:18:21.342306+03:00",
+>    "stats": {
+>        "01-10 episodes": 221,
+>        "11-20 episodes": 82,
+>        "21-30 episodes": 57,
+>        "31-40 episodes": 31,
+>        "41-50 episodes": 27,
+>        "51-60 episodes": 14,
+>        "61-70 episodes": 9,
+>        "71-80 episodes": 10,
+>        "80-90 episodes": 8,
+>        "91-100 episodes": 4,
+>        "100+ episodes": 46
+>    }
+> }
+> ```
+</details>
 </details>
